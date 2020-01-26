@@ -1,0 +1,32 @@
+<nav>
+  <ul>
+    <li>
+      {% if page.url == '/' %}
+        Portfolio
+      {% else %}
+        <a href="{{ '/' | relative_url }}">
+          Portfolio
+        </a>
+      {% endif %}
+    </li>
+    <li>
+      {% if page.url == '/about.html' %}
+        About
+      {% else %}
+        <a href="{{ '/about' | relative_url }}">
+          About
+        </a>
+      {% endif %}
+    </li>
+    <li>
+      {% if page.url == '/links.html' %}
+        Links
+      {% else %}
+        <a href="{{ '/links' | relative_url }}">
+          Links
+        </a>
+      {% endif %}
+    </li>
+  </ul>
+</nav>
+<br>
