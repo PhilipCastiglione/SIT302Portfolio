@@ -5,15 +5,17 @@ title:  "Capabilities"
 
 I am a software developer with 5 years of professional experience. I have
 worked in product and consulting environments and have exposure to a variety
-of industry sectors.
-
-I currently work at [DIGIT Game Studios](https://www.digitgaming.com) in
-Dublin, Ireland.
+of industry sectors. I currently work on
+[Star Trek Fleet Command](https://apps.apple.com/us/app/star-trek-fleet-command/id1427744264)
+at [DIGIT Game Studios](https://www.digitgaming.com) in Dublin, Ireland.
 
 Further detail can be found on my
 [LinkedIn](https://www.linkedin.com/in/philcastiglione) or
 [GitHub Profile](https://github.com/PhilipCastiglione/) profiles, also listed
 on the [Links](https://philipcastiglione.me/SIT302Portfolio/links) page.
+
+Please note I am not looking for work. Further details can be found on the
+<a href="{{ '/about' | relative_url }}">About</a> page.
 
 ### Skills
 

@@ -6,27 +6,21 @@
           {% if page.url == '/' %}
             Portfolio
           {% else %}
-            <a href="{{ '/' | relative_url }}">
-              Portfolio
-            </a>
+            <a href="{{ '/' | relative_url }}">Portfolio</a>
           {% endif %}
         </th>
         <th style="text-align: left">
           {% if page.url == '/about.html' %}
             About
           {% else %}
-            <a href="{{ '/about' | relative_url }}">
-              About
-            </a>
+            <a href="{{ '/about' | relative_url }}">About</a>
           {% endif %}
         </th>
         <th style="text-align: left">
           {% if page.url == '/links.html' %}
             Links
           {% else %}
-            <a href="{{ '/links' | relative_url }}">
-              Links
-            </a>
+            <a href="{{ '/links' | relative_url }}">Links</a>
           {% endif %}
         </th>
       </tr>
