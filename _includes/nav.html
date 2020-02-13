@@ -1,32 +1,46 @@
 <nav>
-  <ul>
-    <li>
-      {% if page.url == '/' %}
-        Portfolio
-      {% else %}
-        <a href="{{ '/' | relative_url }}">
-          Portfolio
-        </a>
-      {% endif %}
-    </li>
-    <li>
-      {% if page.url == '/about.html' %}
-        About
-      {% else %}
-        <a href="{{ '/about' | relative_url }}">
-          About
-        </a>
-      {% endif %}
-    </li>
-    <li>
-      {% if page.url == '/links.html' %}
-        Links
-      {% else %}
-        <a href="{{ '/links' | relative_url }}">
-          Links
-        </a>
-      {% endif %}
-    </li>
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left">
+          {% if page.url == '/' %}
+            Portfolio
+          {% else %}
+            <a href="{{ '/' | relative_url }}">
+              Portfolio
+            </a>
+          {% endif %}
+        </th>
+        <th style="text-align: left">
+          {% if page.url == '/about.html' %}
+            About
+          {% else %}
+            <a href="{{ '/about' | relative_url }}">
+              About
+            </a>
+          {% endif %}
+        </th>
+        <th style="text-align: left">
+          {% if page.url == '/links.html' %}
+            Links
+          {% else %}
+            <a href="{{ '/links' | relative_url }}">
+              Links
+            </a>
+          {% endif %}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li><a href="{{ '/#capabilities' | relative_url }}">Capabilities</a></li>
+            <li><a href="{{ '/#project-assets' | relative_url }}">Project Assets</a></li>
+            <li><a href="{{ '/#project-contributions' | relative_url }}">Project Contributions</a></li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </nav>
-<br>
